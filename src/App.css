@@ -1,0 +1,40 @@
+/* style.module.css */
+
+.container {
+    min-height: 100vh;
+    background-color: #f9fafb; /* bg-gray-50 */
+  }
+  
+  .card {
+    max-width: 28rem; /* max-w-md */
+    margin: 10px auto; /* mx-auto mt-8 */
+    padding:10px;  /* p-6 */
+    background-color: #ffffff; /* bg-white */
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* shadow-lg */
+  }
+  
+  .title {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: bold; /* font-bold */
+    margin-bottom: 1.5rem; /* mb-6 */
+    text-align: center; /* text-center */
+    color: #000084;
+    font-family: "Roboto";
+  }
+  
+  .successMessage {
+    margin-top: 1rem; /* mt-4 */
+    padding: 0.75rem; /* p-3 */
+    background-color: #d1fae5; /* bg-green-100 */
+    color: #065f46; /* text-green-700 */
+    border-radius: 0.25rem; /* rounded */
+  }
+  
+  .errorMessage {
+    margin-top: 1rem; /* mt-4 */
+    padding: 0.75rem; /* p-3 */
+    background-color: #fee2e2; /* bg-red-100 */
+    color: #b91c1c; /* text-red-700 */
+    border-radius: 0.25rem; /* rounded */
+  }

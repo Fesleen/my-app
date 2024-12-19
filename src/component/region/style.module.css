@@ -1,0 +1,7 @@
+.select {
+    width: 100%; /* Select elementining kengligi */
+    padding: 0.5rem; /* Select elementining ichki bo'shligi */
+    border: 1px solid #ccc; /* Select elementining chegarasi */
+    font-family: "Roboto";
+    border-radius: 0.25rem; /* Select elementining burchaklari */
+  }

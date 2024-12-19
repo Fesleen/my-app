@@ -1,0 +1,41 @@
+.container {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: "Roboto";
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #e5e7eb;
+  /* Gray rang */
+  border: none;
+  border-radius: 0.375rem;
+  /* Rounded burchaklar */
+  cursor: pointer;
+  font-family: "Roboto";
+}
+
+.button:hover {
+  background-color: #d1d5db;
+  /* Hover effekti */
+}
+
+.span {
+  width: 2rem;
+  /* Raqamning kengligi */
+  font-family: "Roboto";
+  text-align: center;
+  /* Raqamni markazga joylash */
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* Tugmalar orasidagi bo'shliq */
+}
