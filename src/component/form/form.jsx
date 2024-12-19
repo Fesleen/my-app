@@ -2,8 +2,8 @@
 import React from 'react';
 import PassengerCount from '../passangerCount/passanger'; // To'g'ri nom bilan import qiling
 import RegionSelect from '../region/region';
-import styles from './style.module.css'; // CSS modulini import qilish
-import { translations } from '../../traslation'; // Tarjima ob'ektini import qilish
+import styles from './style.module.css';
+import { translations } from '../../traslation'; 
 
 export function RideForm({ 
   formData, 
@@ -21,10 +21,8 @@ export function RideForm({
     telegram_id: ''
   };
 
-  // Tarjima ob'ektini tanlash
   const currentTranslations = translations[currentLang] || translations.uz; // O'zbek tilini default qilib olish
 
-  // formData mavjudligini tekshirish
   const currentFormData = formData || defaultFormData;
 
   return (
