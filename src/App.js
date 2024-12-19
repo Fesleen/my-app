@@ -18,7 +18,7 @@ function App() {
     car_model: '', 
     car_number: '', 
     is_active: true, 
-    created_at: new Date().toISOString(), // Yangi maydon
+    created_at: new Date().toISOString(), 
     odamOrPochta: 'person',
     from_location: '',
     to_location: '',
@@ -45,7 +45,7 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Yuborilayotgan ma\'lumotlar:', formData); // Yuborilayotgan ma'lumotlarni konsolga chiqarish
+    console.log('Yuborilayotgan ma\'lumotlar:', formData); 
     try {
       const success = await createReklama(formData);
       if (success) {
