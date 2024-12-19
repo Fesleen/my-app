@@ -12,12 +12,12 @@ function App() {
   const [drivers, setDrivers] = useState([]);
   const [formData, setFormData] = useState({
     telegram_id: '',
-    username: '', // Yangi maydon
-    phone_number: '', // Yangi maydon
-    fio: '', // Yangi maydon
-    car_model: '', // Yangi maydon
-    car_number: '', // Yangi maydon
-    is_active: true, // Yangi maydon
+    username: '', 
+    phone_number: '', 
+    fio: '', 
+    car_model: '', 
+    car_number: '', 
+    is_active: true, 
     created_at: new Date().toISOString(), // Yangi maydon
     odamOrPochta: 'person',
     from_location: '',
