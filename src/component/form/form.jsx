@@ -12,7 +12,6 @@ export function RideForm({
   drivers, 
   currentLang 
 }) {
-  // Default qiymatlar
   const defaultFormData = {
     odamOrPochta: 'person',
     from_location: '',
