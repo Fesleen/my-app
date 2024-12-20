@@ -1,0 +1,38 @@
+.rideForm {
+    /* Formani o'zgartirish uchun stil */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Elementlar orasidagi bo'shliq */
+  }
+  
+  .radioGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Radio tugmachalari orasidagi bo'shliq */
+  }
+  .label{
+    margin-left: 5px;
+    font-family: "Roboto";
+  }
+  
+  .select {
+    width: 100%; /* Select elementining kengligi */
+    padding: 0.5rem; /* Select elementining ichki bo'shligi */
+    border: 1px solid #ccc; /* Select elementining chegarasi */
+    font-family: "Roboto";
+    border-radius: 0.25rem; /* Select elementining burchaklari */
+  }
+  
+  .submitButton {
+    width: 100%; /* Tugma kengligi */
+    padding: 0.5rem; /* Tugma ichki bo'shligi */
+    background-color: #000084; /* Tugma fon rangi */
+    color: white; /* Tugma matn rangi */
+    font-family: "Roboto";
+    border-radius: 0.25rem; /* Tugma burchaklari */
+    cursor: pointer; /* Kursorni ko'rsatish */
+  }
+  
+  .submitButton:hover {
+    background-color: #001a33; /* Tugma ustiga kelsa fon rangi */
+  }

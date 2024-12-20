@@ -1,0 +1,18 @@
+/* LanguageSwitch.module.css */
+.languageSwitch {
+    display: flex;
+    gap: 0.3rem; /* Tugmalar orasidagi bo'shliq */
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem; /* Rounded burchaklar */
+    color: rgb(130, 130, 130);
+    background-color: #000084; /* Navy rang */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button.active {
+    background-color: #ffffff; /* Blue rang */
+  }
