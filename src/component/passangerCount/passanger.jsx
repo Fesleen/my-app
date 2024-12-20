@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from './style.module.css'; // CSS moduli import qilish
+import styles from './style.module.css'; 
 
 // PassengerCount komponenti
 const PassengerCount = ({ value, onChange, label }) => {
